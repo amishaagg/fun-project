@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<audio autoplay loop>
+    <source src="romantic_song.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+<body>
+    <div class="container">
+        <h1>Will you be Amisha's Valentine?</h1>
+        
+        <p id="countdown"></p>
+
+        <div class="buttons">
+            <button class="yes-button" onclick="handleYesClick()">Yes</button>
+            <button class="no-button" onclick="handleNoClick()">No</button>
+        </div>
+        
+       <div class="image_container">
+        <img src="valentine.jpeg" alt="Valentine's Image" class="heart-shape">
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
